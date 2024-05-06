@@ -1,0 +1,94 @@
+# Type:Final Project
+# Title: Sentiment Analysis with JavaScript
+# Author: Nara G
+# Date submitted: 02/24/2023
+
+
+## Description of Project:
+This is the final project for the INF1005H class, focusing on conducting sentiment analysis with JavaScript. The purpose of the project is to perform sentiment analysis based on the user input of a link. To achieve this, three files have been created: index, frontend, and backend. In addition to JavaScript, some basic HTML code has been employed to create a static page for user input.
+
+According to Amazon Web Services, sentiment analysis can be defined as the process of analyzing digital text to determine if the emotional tone of the message is positive, negative, or neutral.
+
+As output, the user receives the total score and information about whether the content in the link is positive, negative, or neutral.
+
+
+## Submitted files:
+The files have been submitted in a zip folder:
+
+- "README.txt" documentation is a text file that provides an overview of the project and instructions on how to run the code.
+- "index.html" is an HTML file that contains the structure of the web page.
+- "frontend.js" is a JavaScript file that handles interaction on the web page.
+- "backend.js" is a Node.js script to perform sentiment analysis.
+- "output.mp4" shows the recording of the instructions on how to run the file and what output to expect. The instructions on how to open the file are also outlined in the "README" file.
+
+The folder also contains a "node_modules" folder, "package.json," and "package-lock.json" files, which have not been created by the author of this project. They appeared in the folder while the author was going through different iterations trying to debug the frontend and backend files.
+
+
+## Prerequisites:
+
+- Node.js has to be installed on the computer to run the backend script.If it is not, download it here and follow the instruction  https://nodejs.org/
+
+- Save the folder named "inf1005_Final" to the C drive on your computer by downloading it.
+
+- Run the following command in the terminal to intall Node.js packages:
+
+`npm install express puppeteer sentiment body-parser`
+
+
+## Execution Instructions:
+
+The following steps have to be followed in order to run the analysis:
+
+1. Open the command prompt and navigate to the folder directory:
+`cd inf1005_Final`
+
+2. Run the command below for the backend server and do not close the terminal:
+`node backend.js`
+The terminal should display a message indicating that the server is running on a specific address (e.g., http://localhost:3000).
+
+3. Open another command prompt (keep the first teminal running)
+
+4.Navigate to the folder directory and keep it running:
+`cd inf1005_Final`
+
+5. Open "index.html" file in any web browser.
+
+6. In the open webpage, enter any URL website for analysis
+
+7. Click "Analyze". It takes about 3 minutes for the results to be displayed.
+
+
+
+## Reference:
+
+Jones, D. (2017). JavaScript: Novice to Ninja. SitePoint Pty Ltd.
+
+How Much JavaScript is Required to Become Front End Developer?, Retrieved from https://www.geeksforgeeks.org/how-much-javascript-is-required-to-become-front-end-developer/
+
+HTML Introduction, Retrieved from https://www.w3schools.com/html/html_intro.asp
+
+Beautiful And Simple WebPage Using HTML Only (No CSS Used) | HTML TUTORIALS, Retrieved from https://www.youtube.com/watch?v=kMme0C9lMhQ
+
+What is Sentiment Analysis? Retrieved from https://aws.amazon.com/what-is/sentiment-analysis/
+
+NPM: Sentiment, Retrieved from https://www.npmjs.com/package/sentiment
+
+HTML Background Images, Retrieved from 
+https://www.w3schools.com/html/html_images_background.asp
+
+Unsplash Free Photostock by Sarah Dorweiler https://unsplash.com/photos/green-leafed-plant-on-clear-glass-vase-filled-with-water-x2Tmfd1-SgA
+
+Understanding process.env.PORT in Node.js
+Retrieved from https://developerport.medium.com/understanding-process-env-port-in-node-js-e09aef80384c
+
+Sentiment Analysis using JavaScript and API, Retrieved from https://www.geeksforgeeks.org/sentiment-analysis-using-javascript-and-api/
+
+Web Scraping and Sentiment Analysis with Javascript, Retrieved from https://www.youtube.com/watch?v=w6ECXzSJdnQ
+
+JavaScript if, else, and else if, 
+Retrieved from https://www.w3schools.com/js/js_if_else.asp
+
+ JavaScript Async, Retrieved from https://www.w3schools.com/js/js_async.asp
+
+Express app.listen() Function, 
+Retrieved from https://www.geeksforgeeks.org/express-js-app-listen-function/q

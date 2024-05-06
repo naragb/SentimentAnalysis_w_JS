@@ -1,0 +1,19 @@
+{
+  "name": "inf1005_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "puppeteer": "^22.1.0",
+    "sentiment": "^5.0.2"
+  }
+}
