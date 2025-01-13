@@ -1,5 +1,5 @@
 # **Title: Sentiment Analysis with JavaScript** 
-# **Author: Nara G**
+
 
 ## Description of Project:
 The purpose of the project is to perform sentiment analysis based on the user input of a link. To achieve this, three files have been created: index, frontend, and backend. In addition to JavaScript, some basic HTML code has been employed to create a static page for user input.
